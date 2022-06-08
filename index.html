@@ -23,21 +23,41 @@
     </header>
     <div class="search">
         <p>
-        <h3>
+        <h1>
             Do you know where you are going? Just getting started with planning? Or just tossing the dice, packing your
             bags and hitting
             the road? Knowing the weather is the first step so you know what to pack! Enter a city, or two, or however
             many it takes
             to find your destination below!
-        </h3>
+        </h1>
         </p>
-        <form action="weather API" method="GET">
-            <input city="destination" class="searchBar" placeholder="Enter City Here">
-        </form>
-    </div>
+        <p>
+
+        <div id="date">
+            <h2> Current Condition </h2>
+            <div id="city"></div>
+            <div id="temp"></div>
+            <div id="humidity"></div>
+            <div id="windspeed"></div>
+            <div id="UV Index"></div>
+        </div>
+
+        <div>
+            <h3> Five Day Forecast </h3>
+            <div class="container" id="dayblocks">
+                <div class="row" id="dayOne"> </div>
+                <div class="row" id="dayTwo"> </div>
+                <div class="row" id="dayThree"> </div>
+                <div class="row" id="dayFour"> </div>
+                <div class="row" id="dayFive"> </div>
+            </div>
+        </div>
+        <div>
+            <button type="click" class="history" id="previousCities">Previous Cities </button>
+        </div>
 
 
-    <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
