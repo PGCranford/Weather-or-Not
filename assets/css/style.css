@@ -29,3 +29,39 @@ header h2 {
     font-size: 4.5rem;
     text-align: center;
 }
+
+.input {
+    text-align: center;
+    height: 3.0rem;
+    justify-content: center;
+    flex: auto;
+}
+
+input[type="submit"] {
+    height: 60px;
+    width: 85px;
+    font-size: large;
+}
+
+
+.inputCity {
+    height: 80px;
+    width: 18rem;
+    background-color: beige;
+    font-size: 2.5rem;
+}
+
+.today {
+    text-align: center;
+    padding: 100px;
+}
+
+.search h1 {
+    text-align: center;
+    background-color: rgba(rgb(33, 176, 212));
+}
+
+.fiveDay {
+    text-align: center;
+    font-size: 3.8rem;
+}
