@@ -37,17 +37,19 @@
         </div>
 
         <div class="today" class="date">
-            <h2> Current Conditions</h2>
+            <h2> Current Conditions in:</h2>
+            <h3 id="currentDay" placeholder="today"></h3>
             <p class="city">
             <p class="temp">
             <p class="humidity">
             <p class="windSpeed">
             <p class="uvIndex">
+            <p id="weatherIcon"><img id="dayIcon" alt="Weather Icon"></p>
         </div>
 
         <div>
             <h3 class="fiveDay"> Five Day Forecast </h3>
-            <div class="container" id="dayblocks">
+            <div class="dayContainer" id="dayblocks">
                 <div class="row" id="dayOne"> </div>
                 <div class="row" id="dayTwo"> </div>
                 <div class="row" id="dayThree"> </div>
@@ -59,7 +61,7 @@
             <button type="click" class="history" id="previousCities">Previous Cities </button>
         </div>
 
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="./assets/js/script.js"></script>
 </body>
 
