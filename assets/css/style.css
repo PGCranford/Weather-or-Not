@@ -45,8 +45,7 @@ input[type="submit"] {
 }
 
 
-.inputCity,
-.searches {
+.inputCity {
     height: 80px;
     width: 18rem;
     background-color: beige;

@@ -91,16 +91,9 @@ button.addEventListener("click", function () {
 
 
     // })
-    var displaySavedCity = function () {
-        //after new search, previous search is displayed below search bar
-        for (let i = 0; i < savedItems.length; i++, length <= 4) {
-            var displayCity = savedItems[i];
-
-        }
-
-    }
 
 
 
 
-    displaySavedCity()
+
+})
