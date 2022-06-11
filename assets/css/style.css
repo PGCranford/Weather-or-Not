@@ -31,11 +31,12 @@ header h2 {
 }
 
 .input {
-    text-align: center;
+    text-align: left;
     height: 3.0rem;
     justify-content: center;
     flex: auto;
 }
+
 
 input[type="submit"] {
     height: 60px;
@@ -44,7 +45,8 @@ input[type="submit"] {
 }
 
 
-.inputCity {
+.inputCity,
+.searches {
     height: 80px;
     width: 18rem;
     background-color: beige;
@@ -64,4 +66,20 @@ input[type="submit"] {
 .fiveDay {
     text-align: center;
     font-size: 3.8rem;
+    justify-content: center;
+    align-items: row;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0, 12px;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: rgb(11, 52, 62);
+
 }

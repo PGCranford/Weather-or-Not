@@ -34,12 +34,14 @@
         <div class="input">
             <input type="text" class="inputCity" placeholder="Enter a City">
             <input type="submit" value="Submit" class="button">
+            <div class="searches"></div>
         </div>
 
         <div class="today" class="date">
             <h2> Current Conditions in:</h2>
             <h3 id="currentDay" placeholder="today"></h3>
             <p class="city">
+            <p class="date">
             <p class="temp">
             <p class="humidity">
             <p class="windSpeed">
@@ -49,18 +51,15 @@
 
         <div>
             <h3 class="fiveDay"> Five Day Forecast </h3>
-            <div class="dayContainer" id="dayblocks">
-                <div class="row" id="dayOne"> </div>
-                <div class="row" id="dayTwo"> </div>
-                <div class="row" id="dayThree"> </div>
-                <div class="row" id="dayFour"> </div>
-                <div class="row" id="dayFive"> </div>
+            <div class="container" id="dayblocks">
+                <div class="forecast">
+
+                </div>
             </div>
         </div>
-        <div>
-            <button type="click" class="history" id="previousCities">Previous Cities </button>
-        </div>
 
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="./assets/js/script.js"></script>
 </body>
